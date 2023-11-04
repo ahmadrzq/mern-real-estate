@@ -8,9 +8,9 @@ export default function Register() {
                     Register
                 </h1>
                 <form className="flex flex-col gap-4">
-                    <input type="text" name="" id="username" placeholder="Username" className="border p-3 rounded-lg" />
-                    <input type="email" name="" id="email" placeholder="Email" className="border p-3 rounded-lg" />
-                    <input type="password" name="" id="password" placeholder="Password" className="border p-3 rounded-lg" />
+                    <input type="text" name="" id="username" placeholder="Username" className="border outline-none p-3 rounded-lg"  required/>
+                    <input type="email" name="" id="email" placeholder="Email" className="border outline-none p-3 rounded-lg"  required/>
+                    <input type="password" name="" id="password" placeholder="Password" className="border outline-none p-3 rounded-lg" required/>
                     <button className="bg-[#274C77] text-white p-3 rounded-lg uppercase hover:opacity-80 disabled:opacity-60">Register</button>
                 </form>
                 <div className="flex gap-2 mt-5">
